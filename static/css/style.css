@@ -1,0 +1,306 @@
+.navbar-nav {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+}
+
+.btn {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("/img/background.jpg");
+    background-attachment: fixed;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.form-group label {
+    text-align: right;
+}
+
+.form-signin {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider {
+    width: 100%;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-caption {
+    padding: 0;
+}
+
+.header {
+    height: 130px;
+    width: 100%;
+}
+
+.font-signup, .font-signin {
+    font-family: Tahoma, Genema, Sans-Serif;
+}
+
+.navbar-login {
+    margin-left: 5mm;
+    margin-right: 3mm !important;
+    color: whitesmoke !important;
+    font-size: 24px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.row-textarea {
+    justify-content: center;
+}
+
+.pagination-outer{ text-align: center; }
+.pagination{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+.pagination li a.page-link{
+    color: #fff;
+    background-color: #2d3436;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0 7px;
+    border: none;
+    border-radius: 0;
+    display: block;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+.pagination li.active a.page-link,
+.pagination li a.page-link:hover,
+.pagination li.active a.page-link:hover,
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:focus{
+    color: #fff;
+    background-color: green;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5) inset;
+}
+.pagination li a.page-link:before{
+    content: '';
+    border: 3px solid green;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+}
+
+.pagination li a.page-link:hover:before,
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:before{
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(800px) rotateX(180deg);
+}
+@media only screen and (max-width: 480px){
+    .pagination{
+        font-size: 0;
+        display: block;
+    }
+    .pagination li{
+        display: inline-block;
+        margin: 0 0 10px;
+    }
+}
+.page-item:last-child .page-link {
+    margin-left: 1px;
+}
+.pagination {
+    display: flex;
+    justify-items: center;
+}
+.badge-info {
+    color: #000000;
+    background-color: #72c4b6;
+    text-align: center;
+}
+.btn-home {
+    padding-top: 2%;
+    height: 3rem;
+}
+
+.truncate {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.search-form {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.username {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #f5f5f5 !important;
+    margin-left: 5px;
+    margin-right: 20px !important;
+}
+.signin, .register, .update-card {
+    margin: auto;
+    border-radius: 20px 20px;
+}
+.signin-top {
+    padding-top: 10%;
+}
+.register-top {
+    padding-top: 5%;
+}
+.card-signin, .card-register {
+    width: 100%;
+    font-size: 24px;
+}
+.signin-form {
+    display: inline;
+    width: 60%;
+}
+.card-body-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-btn {
+    margin: auto;
+    width: 100px;
+    align-items: center;
+}
+.register-btn {
+    margin: auto;
+    width: 140px;
+    align-items: center;
+}
+.breadcrumb {
+    background-color: rgb(52, 58, 64);
+}
+.breadcrumb-item {
+    font-size: 18px;
+}
+.feedback {
+    display: block;
+    width: 100%;
+}
+.aside {
+    background-color: rgb(52, 58, 64);
+    color: #f5f5f5;
+}
+.index {
+    margin: 0;
+    width: 100%;
+}
+.card-aside {
+    border: 10px;
+    border-radius: 10px 10px;
+}
+.card-img-top {
+    border-radius: 20px 20px 0 0;
+}
+.shadow-sm {
+    border-radius: 20px;
+}
+.form-comments {
+    display: inline;
+    margin: auto;
+}
+.text-area-comments {
+    margin-bottom: 10px;
+}
+.text-area-comments:focus {
+    border-color: #2d3436;
+    box-shadow: 0 5px 15px 0 #2d3436;
+}
+.comment {
+    border: 0.5px solid black;
+    border-radius: 20px;
+    word-break: break-all;
+    box-shadow: -5px -3px 10px 0px rgba(34, 60, 80, 0.2);
+    background-color: transparent;
+}
+.text-comment {
+    margin: 10px;
+}
+.comment-avatar {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.user-update {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.form-update {
+    display: flex;
+}
+.datauser-block {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 200px;
+    align-items: flex-end;
+}
+.btn-edit {
+    border: none;
+    font-size: 12px;
+    color: white;
+    text-decoration: underline;
+    background: transparent;
+}
+.btn-edit:focus {
+    outline: none;
+}
+.form-edit {
+    display: flex;
+    flex-direction: column;
+}
+.card-header-edit {
+    font-size: 24px;
+    text-align: center;
+}
